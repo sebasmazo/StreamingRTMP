@@ -4,4 +4,4 @@ Proyecto Final de Telematica
 Nombre: Sebastián Mazo Vélez
 ID: 000129045
 #Descripcion Proyecto
-Aplicacion
+Aplicacion para streaming
