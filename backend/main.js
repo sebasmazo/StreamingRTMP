@@ -1,4 +1,4 @@
-'use strict';
+
 navigator.mediaDevices.getUserMedia({ audio: true, video: true }).then((stream) => { //Pide permiso al usuario para acceder al hardware
     console.log(stream) //Indica por consola el inicio del stream
 
