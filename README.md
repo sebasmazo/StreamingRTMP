@@ -25,5 +25,29 @@ El cliente enviará el streaming por medio de RTMP hacia el puerto 1935 configur
 ('rtmp://[IP o dominio del servidor]/[Nombre del application]/[Clave de retransmisión]')
 Podremos tener varias conexiones al tiempo, dandole al usuario la elección de Clave según el stream al que desea acceder
 
+AppMovil
+{
+    Permitirá observar un streaming deseado, para generar un stream tendrá que ser desde un cliente 
+}
+
+Seguridad Servidor
+{
+    El servidor tendrá acceso por medio de SSH con la key respectiva, solo tendrá abiertos los puestros 1935 para RTMP, 80 HTTP, 443 HTTPS.
+}
+
+Lenguajes Utilizados
+{
+    HTML,JavaScript
+}
+
+Tipo de Servidor
+{
+    Servidor en la nube = *Guarda el streaming para después ser transmitido en disntintos clientes*
+}
+
+Plataformas
+{
+    AWSEducate (Maquina Ubuntu), GitHub (Repositorio), Docker (Imagen del servidor) 
+}
 Este es un prototipo inicial, todo está sujeto a cambios, mejoras, etc.
 
