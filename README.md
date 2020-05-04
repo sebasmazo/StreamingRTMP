@@ -12,7 +12,7 @@ Servidor (Aloja streaming y Páginas HTML)
 {
  Protocolo RTMP para alojar el streaming enviado desde el cliente en el puerto deseado  (Port::1935)
 
- NGINX para el front, paginas en lenguaje HTML para el diseño y vista del stream
+ APACHE para el front, paginas en lenguaje HTML para el diseño y vista del stream
  {
   1.Página de Inicio
   2.Página para visualizar un stream
@@ -27,7 +27,7 @@ Podremos tener varias conexiones al tiempo, dandole al usuario la elección de C
 
 AppMovil
 {
-    Permitirá observar un streaming deseado, para generar un stream tendrá que ser desde un cliente 
+    La app móvil tendrá un web viewer que simplemente mostrará los archivos del server APACHE
 }
 
 Seguridad Servidor
@@ -37,7 +37,7 @@ Seguridad Servidor
 
 Lenguajes Utilizados
 {
-    HTML,JavaScript
+    HTML, JavaScript, PHP
 }
 
 Tipo de Servidor
