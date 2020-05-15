@@ -47,7 +47,7 @@ Tipo de Servidor
 
 Plataformas
 {
-    AWSEducate (Maquina Ubuntu), GitHub (Repositorio), Docker (Imagen del servidor), XAMPP (Bases de datos, Interprete PHP)
+    AWSEducate (Maquina Ubuntu), GitHub (Repositorio), Docker (Imagen del servidor), XAMPP (Bases de datos, Interprete PHP), Docker
 }
 Este es un prototipo inicial, todo está sujeto a cambios, mejoras, etc.
 
