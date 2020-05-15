@@ -12,7 +12,7 @@ Servidor (Aloja streaming y Páginas HTML)
 {
  Protocolo RTMP para alojar el streaming enviado desde el cliente en el puerto deseado  (Port::1935)
 
- APACHE para el front, paginas en lenguaje HTML para el diseño y vista del stream
+ NGINX para el front, paginas en lenguaje PHP para el diseño y vista del stream
  {
   1.Página de Inicio
   2.Página para visualizar un stream
@@ -47,7 +47,7 @@ Tipo de Servidor
 
 Plataformas
 {
-    AWSEducate (Maquina Ubuntu), GitHub (Repositorio), Docker (Imagen del servidor) 
+    AWSEducate (Maquina Ubuntu), GitHub (Repositorio), Docker (Imagen del servidor), XAMPP (Bases de datos, Interprete PHP)
 }
 Este es un prototipo inicial, todo está sujeto a cambios, mejoras, etc.
 
