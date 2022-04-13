@@ -1,4 +1,6 @@
 # FinalTelematica
+Streaming platform
+
 Proyecto Final de Telematica
 #Datos Del Autor
 Nombre: Sebastián Mazo Vélez
